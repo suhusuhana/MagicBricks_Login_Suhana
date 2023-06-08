@@ -12,7 +12,7 @@ package loginpage_stepdefinitions_outline;
 	import io.cucumber.java.en.And;
 	public class LoginPageSteps2 {
 		
-		private static final String EmailId = null;
+	    static final String EmailId = null;
 		public LandingPage ldp;
 		public LoginPage lp;
 		
@@ -75,7 +75,10 @@ package loginpage_stepdefinitions_outline;
 	    	lp.loginemailid();
 	    	Thread.sleep(2000); 
 	    	lp.NextButton();
+	    	Thread.sleep(1000);
+	    	lp.loginPassword();
 	    	Thread.sleep(2000);
+	    
 	    }
 	@Then("User enters incorrect Password {string}")
 	public void user_enters_correct_password(String passowrd) throws IOException, InterruptedException {
@@ -98,7 +101,8 @@ package loginpage_stepdefinitions_outline;
 	
 	@Then("User gets error message")
 	public void user_gets_error_message() {
-	   System.out.println("*********USER IS NOT LOGGED IN*********");;
+		
+	   System.out.println("*********USER IS NOT LOGGED IN*********");
 	}
 	
 	}

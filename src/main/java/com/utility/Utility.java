@@ -5,6 +5,9 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
+import java.util.Set;
+import java.util.Iterator;
+
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -97,6 +100,22 @@ public class Utility extends Config {
         return date.toString().replaceAll(":", "-").replaceAll(" ", "_");
 
         }
+	
+	public static void WindowHandle() {
+
+        String mainWindowHandle = driver.getWindowHandle();
+
+        Set<String> handles = driver.getWindowHandles();
+
+        Iterator<String> it = handles.iterator();
+
+        String parentpage = (String) it.next();
+
+        String childpage = (String) it.next();
+
+        driver.switchTo().window(childpage);
+
+    }
 	public static void captureScreenshotOnFailure() throws IOException {
 
         

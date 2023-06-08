@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="97.897" tests="3" skipped="0" failures="0" errors="0">
-<testcase classname="login1" name="    UI" time="19.565">
+<testsuite name="Cucumber" time="106.13" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="login1" name="    UI" time="25.523">
 <system-out><![CDATA[
 Given Chrome is opened and MagicBricksApp is launched.......................passed
 Then User navigates on Landing Page.........................................passed
@@ -8,7 +8,7 @@ When User clicks on Login button............................................pass
 Then User Navigates to Login Page...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login1" name="    Field validation" time="27.339">
+<testcase classname="login1" name="    Field validation" time="22.753">
 <system-out><![CDATA[
 Given Chrome is opened and MagicBricksApp is launched.......................passed
 Then User navigates on Landing Page.........................................passed
@@ -17,7 +17,7 @@ Then User Navigates to Login Page...........................................pass
 And elements are enabled on Login Page......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login1" name="    Main functionality" time="50.613">
+<testcase classname="login1" name="    Main functionality" time="57.363">
 <system-out><![CDATA[
 Given Chrome is opened and MagicBricksApp is launched.......................passed
 Then User navigates on Landing Page.........................................passed

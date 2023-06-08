@@ -13,7 +13,7 @@ public class ConfigReader extends Config {
 
 		prop = new Properties();
 		try {
-			FileInputStream ip = new FileInputStream(projectPath + "\\src\\main\\java\\com\\config\\Config.properties");
+			FileInputStream ip = new FileInputStream(filePath);
 			prop.load(ip);
 
 		} catch (FileNotFoundException e) {

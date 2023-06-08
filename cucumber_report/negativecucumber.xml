@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="88.995" tests="2" skipped="0" failures="0" errors="0">
-<testcase classname="login2" name="Verify MagicBricksApp login functionality with invalid emailid - Example #1.1" time="39.597">
+<testsuite name="Cucumber" time="73.532" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="login2" name="Verify MagicBricksApp login functionality with invalid emailid - Example #1.1" time="23.041">
 <system-out><![CDATA[
 Given Chrome is opened and MagicBricksApp is launched.......................passed
 Then User navigates on Landing Page.........................................passed
@@ -10,7 +10,7 @@ Then User enters incorrect Emailid "@@@@@"..................................pass
 Then User gets error message................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="login2" name="Verify MagicBricksApp login functionality with invalid password - Example #1.1" time="49.086">
+<testcase classname="login2" name="Verify MagicBricksApp login functionality with invalid password - Example #1.1" time="50.169">
 <system-out><![CDATA[
 Given Chrome is opened and MagicBricksApp is launched.......................passed
 Then User navigates on Landing Page.........................................passed

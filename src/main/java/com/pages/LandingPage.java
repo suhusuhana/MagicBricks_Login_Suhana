@@ -16,9 +16,9 @@ import com.utility.Utility;
 public class LandingPage extends Utility 
 {
 	
-	@FindBy(xpath="//*[@id=\"commercialIndex\"]/header/section[1]/div/div[2]/div[2]/a")
+	@FindBy(xpath="//*[@id='commercialIndex']/header/section[1]/div/div[2]/div[2]/a")
 	WebElement login; 
-	@FindBy(xpath="//*[@id=\"commercialIndex\"]/header/section[1]/div/div[2]/div[2]/div/div[2]/a")
+	@FindBy(xpath="//*[@id='commercialIndex']/header/section[1]/div/div[2]/div[2]/div/div[2]/a")
 	WebElement button;
 	
 
